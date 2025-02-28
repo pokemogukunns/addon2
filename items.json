@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morph_camera",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "morph_camera",
+      "minecraft:display_name": {
+        "value": "§b変身カメラ"
+      },
+      "minecraft:use_duration": 1,
+      "minecraft:cooldown": {
+        "category": "morph_camera",
+        "duration": 5
+      },
+      "minecraft:allow_off_hand": false
+    }
+  }
+}

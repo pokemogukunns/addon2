@@ -5,6 +5,7 @@
     "name": "Morph Mod",
     "uuid": "9d574f0c-d5be-4bc3-9b92-5b4cbbec8497",  
     "version": [1, 0, 0]
+    "min_engine_version": [1, 16, 0]
   },
   "modules": [
     {

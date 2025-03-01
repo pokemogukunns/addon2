@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "変身アドオン",
+    "name": "Morph Mod",
+    "uuid": "9d574f0c-d5be-4bc3-9b92-5b4cbbec8497",  // これを新しいUUIDに変えてください
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "description": "変身スクリプト",
+      "language": "javascript",
+      "uuid": "fe8fca6d-6d32-4d6d-8ed8-cba1c54f08f9",  // これも新しいUUIDに変えてください
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": []
+}

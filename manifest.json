@@ -10,7 +10,7 @@
     {
       "description": "変身スクリプト",
       "language": "javascript",
-      "type": "scripting", 
+      "type": "script", 
       "uuid": "fe8fca6d-6d32-4d6d-8ed8-cba1c54f08f9", 
       "version": [1, 0, 0]
     }

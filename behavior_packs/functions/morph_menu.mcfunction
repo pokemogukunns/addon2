@@ -1,2 +1,10 @@
 title @s actionbar §b[変身メニュー]§r
-tellraw @s {"rawtext":[{"text":"\n§a1. 牛§r\n§b2. 豚§r\n§c3. 村人§r\n§d4. ゾンビ§r\n§e5. スケルトン§r\n\n§7[クリックで選択]"}]}
+tellraw @s {"rawtext":[
+  {"text":"\n"},
+  {"text":"§a[動物]§r\n","clickEvent":{"action":"run_command","value":"/function morph_animals"}},
+  {"text":"§a[中立モブ]§r\n","clickEvent":{"action":"run_command","value":"/function morph_tyuuritu"}},
+  {"text":"§c[敵対Mob]§r\n","clickEvent":{"action":"run_command","value":"/function morph_hostile"}},
+  {"text":"§b[村人系]§r\n","clickEvent":{"action":"run_command","value":"/function morph_villagers"}},
+  {"text":"\n"},
+  {"text":"§7[キャンセル]§r","clickEvent":{"action":"run_command","value":"/function morph_cancel"}}
+]}

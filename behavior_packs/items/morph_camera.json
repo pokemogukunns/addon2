@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "your_addon:morph_camera"
+    },
+    "components": {
+      "minecraft:use_animation": "bow",
+      "minecraft:max_stack_size": 1,
+      "minecraft:cooldown": {
+        "category": "morph_camera",
+        "duration": 10
+      },
+      "minecraft:interact_button": {
+        "button_name": "変身メニュー",
+        "on_interact": {
+          "event": "open_morph_menu"
+        }
+      }
+    },
+    "events": {
+      "open_morph_menu": {
+        "run_command": {
+          "command": [
+            "function morph_menu"
+          ]
+        }
+      }
+    }
+  }
+}
